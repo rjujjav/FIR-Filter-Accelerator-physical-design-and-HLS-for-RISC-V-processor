@@ -1,0 +1,31 @@
+
+# Messages from "go new"
+
+# Info: Branching solution 'solution.v2' at state 'initial' (PRJ-2)
+
+# Messages from "go analyze"
+
+proc nvhls::usercmd_post_assembly {} {
+    upvar TOP_NAME TOP_NAME
+    directive set /$TOP_NAME/slave/run/reg:rsc -MAP_TO_MODULE {[Register]}
+}
+nvhls::run
+***USER SETTINGS***
+TOP_NAME = Accelerator
+CLK_PERIOD = 2
+SRC_PATH = ../sc
+SEARCH_PATH = /mnt/coe/workspace/ece/ece720-common/tools/2020.05/matchlib/cmod /mnt/coe/workspace/ece/ece720-common/tools/2020.05/matchlib/cmod/include /mnt/coe/workspace/ece/ece720-common/tools/2020.05/matchlib/rapidjson/include /include
+HLS_CATAPULT = 1
+RUN_SCVERIFY = 1
+COMPILER_FLAGS =  CONNECTIONS_ACCURATE_SIM SC_INCLUDE_DYNAMIC_PROCESSES
+SYSTEMC_DESIGN = 1
+RUN_CDESIGN_CHECKER = 0
+# Info: Starting transformation 'analyze' on solution 'solution.v2' (SOL-8)
+Front End called with arguments: -I. -I/mnt/coe/workspace/ece/ece720-common/tools/2020.05/matchlib/cmod -I/mnt/coe/workspace/ece/ece720-common/tools/2020.05/matchlib/cmod/include -I/mnt/coe/workspace/ece/ece720-common/tools/2020.05/matchlib/rapidjson/include -I/include -- /mnt/ncsudrive/r/rjujjav/rjujjav/proj2/sc/Accelerator.h (CIN-69)
+Edison Design Group C++/C Front End - Version 6.1 (CIN-1)
+# Warning: unrecognized GCC pragma (CRD-1675)
+# Info: Running transformation 'analyze' on solution 'solution.v2': elapsed time 24.92 seconds, memory usage 2619676kB, peak memory usage 2619676kB (SOL-15)
+# Warning: unrecognized GCC pragma (CRD-1675)
+# Warning: unrecognized GCC pragma (CRD-1675)
+Source file analysis completed (CIN-68)
+# Info: Completed transformation 'analyze' on solution 'solution.v2': elapsed time 44.75 seconds, memory usage 2343956kB, peak memory usage 3209500kB (SOL-9)

@@ -1,0 +1,6 @@
+RADIX hex
+CDEBUG 0
+DEBUGVARS {}
+WAVELIST {{Sync_Signals CTRL clk clk {}} {Sync_Signals CTRL reset_bar reset_bar {}} {DUT {} axi_read_ar_val axi_read_ar_val {}} {DUT {} axi_read_ar_rdy axi_read_ar_rdy {}} {DUT {} axi_read_ar_msg axi_read_ar_msg {}} {DUT {} axi_read_r_val axi_read_r_val {}} {DUT {} axi_read_r_rdy axi_read_r_rdy {}} {DUT {} axi_read_r_msg axi_read_r_msg {}} {DUT {} axi_write_aw_val axi_write_aw_val {}} {DUT {} axi_write_aw_rdy axi_write_aw_rdy {}} {DUT {} axi_write_aw_msg axi_write_aw_msg {}} {DUT {} axi_write_w_val axi_write_w_val {}} {DUT {} axi_write_w_rdy axi_write_w_rdy {}} {DUT {} axi_write_w_msg axi_write_w_msg {}} {DUT {} axi_write_b_val axi_write_b_val {}} {DUT {} axi_write_b_rdy axi_write_b_rdy {}} {DUT {} axi_write_b_msg axi_write_b_msg {}} {Active_Processes run.wen slave/AxiSlaveToReg2_axi_cfg_standard_14_16_run_inst slave/AxiSlaveToReg2_axi_cfg_standard_14_16_run_inst/AxiSlaveToReg2_axi_cfg_standard_14_16_run_staller_inst/run_wen {}}}
+DUTINST Accelerator_rtl
+STALL_CTRLS_ADDED 1

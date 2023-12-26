@@ -1,0 +1,4 @@
+/mnt/coe/workspace/ece/ece720-common/tools/catapult2021.1/Mgc_home/pkgs/siflibs/ccs_in_wait_v1.v
+/mnt/coe/workspace/ece/ece720-common/tools/catapult2021.1/Mgc_home/pkgs/siflibs/ccs_out_wait_v1.v
+/mnt/coe/workspace/ece/ece720-common/tools/catapult2021.1/Mgc_home/pkgs/siflibs/mgc_shift_l_beh_v5.v
+./rtl.v
